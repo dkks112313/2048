@@ -87,10 +87,10 @@ function checkMatrix() {
         }
     }
 
-    if(countDefeat == count) {
+    /*if(countDefeat == count) {
         alert("You are defeat(");
         return false;
-    }
+    }*/
 
     return true;
 }
