@@ -1,0 +1,41 @@
+body {
+    background-color: #fbf8ef;
+}
+
+div.dynamic-center {
+    background-color: #bdafa2;
+    width: 828px;
+    height: 828px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.block {
+    background-color: #ccc0b2;
+    width: 187px;
+    color: #71685f;
+    height: 187px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+}
+
+div.score {
+    background-color: #ccc0b2;
+    color: #fffef3;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
